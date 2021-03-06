@@ -22,6 +22,9 @@ dw_1 dw_1
 end type
 global w_test w_test
 
+type variables
+string  is_test
+end variables
 on w_test.create
 this.dw_1=create dw_1
 this.Control[]={this.dw_1}

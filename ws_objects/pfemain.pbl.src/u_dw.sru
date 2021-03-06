@@ -15,6 +15,9 @@ global u_dw u_dw
 
 type variables
 boolean ib_test=True
+boolean ib_test2=True
+          string is_test="BUG"
+
 end variables
 on u_dw.create
 end on
